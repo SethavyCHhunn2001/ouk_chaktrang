@@ -1,0 +1,14 @@
+{
+  "name": "ouk-chaktrang-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Backend API for Ouk Chaktrang",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --env-file-if-exists=../.env server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "oracledb": "^6.9.0"
+  }
+}
